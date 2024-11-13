@@ -1,0 +1,98 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.profile ul {
+    list-style: none;
+    margin-right: 10%;
+    margin-top: 2.4%;
+}
+
+.profile ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+.profile ul li span {
+    color: #6C6C6C;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.profile ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profileInfo h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #313131;
+    margin-bottom: 0.5rem;
+}
+
+.profileInfo p {
+    font-size: .875rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    line-height: 1.488rem;
+}
+
+.profileInfo img {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    text-align: justify;
+    width: 385px;
+}
+
+@media (max-width: 600px){
+    .profileInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content p {
+        width: 300px;
+        text-align: normal;
+    }
+
+    .pins {
+        display: flex;
+        flex-direction: column;
+        margin-left: -35%;
+    }
+}
